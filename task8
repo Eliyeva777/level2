@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main() {
+    int il;
+    std::cout << "Bir il daxil edin: ";
+    std::cin >> il;
+    if ((il % 4 == 0 && il % 100 != 0) || (il % 400 == 0)) {
+        std::cout << il << " ilı bir Uzun İldir (Artıq İldir)." << std::endl;
+    } else {
+        std::cout << il << " ilı bir Uzun İl deyil (Artıq İl deyil)." << std::endl;
+    }
+
+    return 0;
+}
