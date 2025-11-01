@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+double a;
+cout<<"Eded daxil et: ";
+cin>>a;
+if(a>0){
+  cout<<"EDED MUSBETDIR";
+}
+else if(a<0){
+  cout<<"EDED MENFIDIR";
+}
+else{
+  cout<<"EDED SIFIRDIR";
+}
+   return 0;
+}
