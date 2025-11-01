@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main(){
+int ay_nomresi;
+cout<<"Ayin nomresini daxil edin: ";
+cin>>ay_nomresi;
+string fesil;
+switch(ay_nomresi){
+   case 1:
+   case 2:
+   case 12:
+fesil="QIS";
+  break;
+  case 3:
+  case 4:
+  case 5:
+fesil="YAZ";
+  break;
+  case 6:
+  case 7:
+  case 8:
+fesil="PAYIZ";
+  break;
+  case 9:
+  case 10:
+  case 11:
+fesil="YAY";
+  break;
+}
+cout<<ay_nomresi<<"ayi "<<fesil<<" fesiline aiddir"<<endl;
+  return 0;
+}
