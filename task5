@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+int bal;
+cout<<"BALI DAXIL ED: ";
+cin>>bal;
+if(bal>=91 and bal<=100){
+  cout<<"A"<<endl;
+}else if(bal>=81 and bal<=90){
+  cout<<"B"<<endl;
+}else if(bal>=71 and bal<=80){
+  cout<<"C"<<endl;
+}else if(bal>=61 and bal<=70){
+  cout<<"D"<<endl;
+}else if(bal>=51 and bal<=60){
+  cout<<"E"<<endl;
+}else{
+  cout<<"F"<<endl;
+}
+  return 0;
+}
