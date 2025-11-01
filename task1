@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+ double a,b;
+ cout<<"Birinci ededi daxil et: ";
+ cin>>a;
+ cout<<"Ikinci ededi daxil et: ";
+ cin>>b;
+ if(a>b) {
+   cout<<"BOYUK EDED: "<<a<<endl;
+}
+ else if (a<b){
+   cout<<"BOYUK EDED: "<<b<<endl;
+}
+ else{
+   cout<<"BERABERDILER"<<endl;
+}
+   return 0;
+}
