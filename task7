@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+int main(){
+char simvollar;
+double a,b,s;
+cout<<"birinci ededi daxil et: ";
+cin>>a;
+cout<<"ikinci ededi daxil et: ";
+cin>>b;
+switch(simvollar){
+  case'+':
+  s=a+b;
+  cout<<"a"<<"+"<<"b"<<"="<<s<<endl;
+  break;
+  case'-':
+  s=a-b;
+  cout<<"a"<<"-"<<"b"<<"="<<s<<endl;
+  break;
+  case'*':
+  s=a*b;
+  cout<<"a"<<"*"<<"b"<<"="<<s<<endl;
+  break;
+  case'/':
+  if(b!=0){
+    s=a/b;
+  cout<<"a"<<"/"<<"b"<<"="<<s<<endl;
+}else{
+   cout<<"XETA";
+}
+break;
+default:
+cout<<"ERROR";
+}
+cout<<endl;
+  return 0;
+}
