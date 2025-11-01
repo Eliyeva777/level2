@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a;
+cout<<"EDED DAXIL ET: ";
+cin>>a;
+
+
+if(a%2==0){
+  cout<<a<<"EDED CUTDUR"<<endl;
+}
+else{
+  cout<<a<<"EDED TEKDIR"<<endl;
+}
+   return 0;
+}
