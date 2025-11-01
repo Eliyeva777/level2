@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+double a,b,c;
+cout<<"Birinci ededi daxil edin: ";
+cin>>a;
+cout<<"Ikinci ededi daxil edin: ";
+cin>>b;
+cout<<"Ucuncu ededi daxil edin: ";
+cin>>c;
+double EN_BOYUK=a;
+if(b>EN_BOYUK){
+  EN_BOYUK=b;
+}
+if(c>EN_BOYUK){
+  EN_BOYUK=c;
+}
+cout<<"EN BOYUK EDED: "<<EN_BOYUK<<endl;
+  return 0;
+}
